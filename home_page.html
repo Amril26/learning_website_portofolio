@@ -3,6 +3,7 @@
 
 <head>
     <style>
+        /* css dari style navbar */
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
@@ -10,8 +11,8 @@
 
         .topnav {
             overflow: hidden;
-            padding-left: 37px;
-            padding-right: 37px;
+            padding-left: 40px;
+            padding-right: 40px;
             padding-bottom: 16px;
             padding-top: 16px;
             background-color: #021639;
@@ -30,28 +31,53 @@
             float: right;
         }
 
+        /* css dari content di body menepatkan nama */
         .content_body {
-            margin-left: 37px;
-            margin-right: 37px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        .container {
+            display: grid;
+            padding-right: 30px;
+            grid-template-columns: 70% auto;
+            padding: 4em 1em;
+        }
+
+        img {
+            height: 300px;
+            width: 300px;
+            object-position: center;
+            margin-right: 40px;
+            border-radius: 100%;
+            object-fit: fill;
         }
     </style>
 </head>
 
 <body>
 
+    <!-- <div link = "topnav"> -->
     <div class="topnav">
         <a href="#">Amril Rismanto Ichsan</a>
-        <input type="image" src="assets/Vector.png" alt="Submit" width="48" height="48">
+        <!-- perbaiki code vector dibawah -->
+        <input type="image" src="assets/Vector.png" width="48" height="48">
         <div class="topnav-right">
-            <a href="#search">Tentang Saya</a>
-            <a href="#about">Karya Saya</a>
-            <a href="#search">Footer</a>
+            <a href="#tentang_saya">Tentang Saya</a>
+            <a href="#Karya_saya">Karya Saya</a>
+            <a href="#footer">Footer</a>
         </div>
     </div>
 
     <div class="content_body">
-        <h2>Navigasi Atas dengan Link Rata Kanan</h2>
-        <p>Ini content...</p>
+        <div class="container">
+            <div id="content">
+                <h1>Down with the state</h1>
+                <p>Abandon the left vs. right paradigm and adopt new ideals, where consistency and logic reign supreme.
+                </p>
+            </div>
+            <img src="assets/picture_person.jpg" />
+        </div>
     </div>
 
 </body>
