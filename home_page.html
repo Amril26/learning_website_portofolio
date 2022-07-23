@@ -33,6 +33,7 @@
 
         /* css dari content di body menepatkan nama */
         .content_body {
+            position: relative;
             margin-left: 40px;
             margin-right: 40px;
         }
@@ -44,13 +45,25 @@
             padding: 4em 1em;
         }
 
-        img {
+        .img_person {
             height: 300px;
             width: 300px;
             object-position: center;
             margin-right: 40px;
             border-radius: 100%;
             object-fit: fill;
+        }
+
+        h1 {
+            font-size: 64px;
+            font-weight: 500;
+        }
+
+        /* css footer */
+        .custom_footer {
+            height: 400px;
+            background-color: 021639;
+            position: fixed;
         }
     </style>
 </head>
@@ -71,13 +84,30 @@
 
     <div class="content_body">
         <div class="container">
-            <div id="content">
-                <h1>Down with the state</h1>
-                <p>Abandon the left vs. right paradigm and adopt new ideals, where consistency and logic reign supreme.
+            <div id="amril">
+                <h1>Tentang Saya</h1>
+
+                <!-- <hr class="line" /> -->
+                <hr width="50%">
+                <p>Universitas Narotama</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic.
                 </p>
             </div>
-            <img src="assets/picture_person.jpg" />
+            <img class="img_person" src="assets/picture_person.jpg" />
         </div>
+    </div>
+    <div>
+        <footer class="custom_footer">
+            <p>Universitas Narotama</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic.
+            </p>
+        </footer>
     </div>
 
 </body>
