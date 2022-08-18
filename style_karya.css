@@ -1,0 +1,39 @@
+ /* card container */
+ /* css untuk card scroll horizontal */
+
+ .wrapper {
+     display: flex;
+     padding-top: 60px;
+     padding-bottom: 60px;
+     border: 0px solid #fff;
+     overflow-x: scroll;
+     align-content: center;
+ }
+
+ .wrapper::-webkit-scrollbar {
+     width: 1;
+ }
+
+ .wrapper .card {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     border-radius: 10px;
+     margin-left: 20px;
+     width: 450px;
+ }
+
+ .img-item {
+     object-fit: fill;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     height: 75%;
+     width: 100%
+ }
+
+ .card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .container-card {
+     padding: 2px 16px;
+     width: 400px;
+ }

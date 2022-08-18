@@ -1,0 +1,22 @@
+/* css footer */
+.custom_footer {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #021639;
+}
+
+.conten_footer {
+    align-items: center;
+    text-align: center;
+}
+
+/*  */
+/*  */
+a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+}

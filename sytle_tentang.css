@@ -1,0 +1,27 @@
+ /* css dari content di body menepatkan nama */
+ .content_body {
+     position: relative;
+     margin-left: 40px;
+     margin-right: 40px;
+ }
+
+ .container {
+     display: grid;
+     padding-right: 30px;
+     grid-template-columns: 70% auto;
+     padding: 4em 1em;
+ }
+
+ .img_person {
+     height: 300px;
+     width: 300px;
+     object-position: center;
+     margin-right: 40px;
+     border-radius: 100%;
+     object-fit: fill;
+ }
+
+ h1 {
+     font-size: 64px;
+     font-weight: 500;
+ }

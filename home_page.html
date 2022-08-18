@@ -2,114 +2,113 @@
 <html>
 
 <head>
+    <!-- navbar -->
+    <link rel="stylesheet" href="style_navbar.css">
+    <link rel="stylesheet" href="sytle_tentang.css">
+    <link rel="stylesheet" href="gate_slide.css">
+    <link rel="stylesheet" href="style_karya.css">
+    <link rel="stylesheet" href="style_fotter.css">
     <style>
-        /* css dari style navbar */
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .topnav {
-            overflow: hidden;
-            padding-left: 40px;
-            padding-right: 40px;
-            padding-bottom: 16px;
-            padding-top: 16px;
-            background-color: #021639;
-        }
-
-        .topnav a {
-            float: left;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        .topnav-right {
-            float: right;
-        }
-
-        /* css dari content di body menepatkan nama */
-        .content_body {
-            position: relative;
-            margin-left: 40px;
-            margin-right: 40px;
-        }
-
-        .container {
-            display: grid;
-            padding-right: 30px;
-            grid-template-columns: 70% auto;
-            padding: 4em 1em;
-        }
-
-        .img_person {
-            height: 300px;
-            width: 300px;
-            object-position: center;
-            margin-right: 40px;
-            border-radius: 100%;
-            object-fit: fill;
-        }
-
-        h1 {
-            font-size: 64px;
-            font-weight: 500;
-        }
-
-        /* css footer */
-        .custom_footer {
-            height: 400px;
-            background-color: 021639;
-            position: fixed;
         }
     </style>
 </head>
 
 <body>
-
     <!-- <div link = "topnav"> -->
-    <div class="topnav">
-        <a href="#">Amril Rismanto Ichsan</a>
-        <!-- perbaiki code vector dibawah -->
-        <input type="image" src="assets/Vector.png" width="48" height="48">
-        <div class="topnav-right">
-            <a href="#tentang_saya">Tentang Saya</a>
-            <a href="#Karya_saya">Karya Saya</a>
-            <a href="#footer">Footer</a>
-        </div>
-    </div>
-
-    <div class="content_body">
-        <div class="container">
-            <div id="amril">
-                <h1>Tentang Saya</h1>
-
-                <!-- <hr class="line" /> -->
-                <hr width="50%">
-                <p>Universitas Narotama</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic.
-                </p>
-            </div>
-            <img class="img_person" src="assets/picture_person.jpg" />
-        </div>
-    </div>
     <div>
-        <footer class="custom_footer">
-            <p>Universitas Narotama</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                leap into electronic.
-            </p>
-        </footer>
-    </div>
+        <div class="topnav" id="tentang_saya">
+            <!-- perbaiki code vector dibawah -->
+            <img src="assets/Vector.png" width="45" height="45" style="float: left">
+            <a href="#">Amril Rismanto Ichsan</a>
+            <div class="topnav-right">
+                <a href="#tentang_saya">Tentang Saya</a>
+                <a href="#Karya_saya">Karya Saya</a>
+                <a href="#kontak">Kontak Saya</a>
+            </div>
+        </div>
 
+        <div class="content_body">
+            <div class="container">
+                <div id="amril">
+                    <h1>Tentang Saya</h1>
+                    <hr align="left" width="50%">
+                    <h2>Amril Rismanto Ichsan</h2>
+                    <p>Universitas Narotama</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                        the
+                        leap into electronic.
+                    </p>
+                </div>
+                <img class="img_person" src="assets/picture_person.jpg" />
+            </div>
+        </div>
+
+        <!-- gate slide -->
+        <div class="container_custom">
+            <table>
+                <tr>
+                    <div class="card_item">
+                        <img class="img_card" src="assets/instagram.png">
+                    </div>
+                    <div class="card_item">
+                        <img class="img_card" src="assets/facbook.png">
+                    </div>
+                    <div class="card_item">
+                        <img class="img_card" src="assets/tiktok.png">
+                    </div>
+                </tr>
+            </table>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 class="h1-white" id="Karya_saya">Karya Saya</h1>
+        </div>
+
+        <!--  COntent Karya saya -->
+
+        <div class="wrapper">
+            <div class="card">
+                <img class="img-item" src="assets/content kkn.png">
+                <div class="container-card">
+                    <h2><b>Pasar Sepatu</b></h2>
+                    <p>Aplikasi utuk membeli sepatu</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-item" src="assets/content kkn3.png">
+                <div class="container-card">
+                    <h2><b>MOVie</b></h2>
+                    <p>Aplikasi untuk melihat film Kesukaan</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <div class="custom_footer" id="kontak">
+            <div class="conten_footer">
+                <h1 class="h1-white" target="#kontak">Kontak Saya</h1>
+                <img src="assets/Vector.png" style="height: 70px; width: 70px; ">
+                <br>
+                <br>
+                <a href="#tentang_saya">Tentang Saya</a>
+                <a href="#Karya_saya">Karya Saya</a>
+                <a href="#kontak">Kontak Saya</a>
+                <p style="color: white; margin-top: 20px; ">© Copyright Amril
+                    Rismanto Ichsan. All Rights Reserved</p>
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

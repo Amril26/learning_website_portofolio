@@ -1,0 +1,41 @@
+ /* untuk gate slide  */
+
+ .container_custom {
+     padding-right: 30px;
+     padding-left: 30px;
+     padding-top: 45px;
+     padding-bottom: 45px;
+     height: 220px;
+     background-color: #021639;
+ }
+
+ h1 {
+     font-size: 32pt;
+     font-weight: 700;
+     text-align: justify;
+ }
+
+ .h1-white {
+     color: #fff;
+     font-size: 32pt;
+     font-weight: 700;
+     text-align: justify;
+
+ }
+
+ .card_item {
+     display: inline-block;
+     width: 30px;
+     height: 30px;
+     margin-right: 20px;
+     text-align: center;
+     border-radius: 10px;
+     background: #fff;
+     align-items: center;
+     padding: 20px 20px 20px 20px;
+ }
+
+ .img_card {
+     height: 30px;
+     width: 30px;
+ }
